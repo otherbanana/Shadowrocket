@@ -6,4 +6,4 @@
 UnlockProxy = url-test, url=http://cip.cc, interval=600, timeout=5, select=0, policy-regex-filter=(Unlock|unlock|)
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/otherbanana/Shadowrocket/main/unlock.list,UnlockProxy
+RULE-SET,https://ghproxy.com/https://raw.githubusercontent.com/otherbanana/QuantumultX/main/unlockvip.list,UnlockProxy
