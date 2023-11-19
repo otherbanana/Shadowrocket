@@ -1,0 +1,9 @@
+#!url=https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/sgmodule/netease.sgmodule
+#!name=unlockvip
+#!desc=unlockvip
+
+[Proxy Group]
+UnlockProxy = url-test, url=http://cip.cc, interval=600, timeout=5, select=0, policy-regex-filter=(Unlock|unlock|)
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/otherbanana/Shadowrocket/main/unlock.list,Unlock
